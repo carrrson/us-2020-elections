@@ -85,6 +85,58 @@
 			]
 		},
 		{
+			"name": "Rich Data Services Election API",
+			"description": "",
+			"tags": [
+				"Voting Location",
+				"Candidate Data",
+				"Election Officials"
+			],
+			"properties": [
+				{
+					"type": "x-website",
+					"url": "https://public.richdataservices.com"
+				},
+				{
+					"type": "x-postman-documentation",
+					"url": ""
+				},
+				{
+					"type": "x-run-in-postman",
+					"url": ""
+				},
+				{
+					"type": "x-rating",
+					"x-data": {
+						"rating": 9
+					}
+				},
+				{
+					"type": "x-sources",
+					"url": "https://github.com/disease-sh/API#sources",
+					"x-data": {
+						"sources": [
+							{
+								"name": "FiveThirtyEight",
+								"url": "https://github.com/fivethirtyeight/data"
+							},
+							{
+								"name": "American National Election Studies",
+								"url": "https://electionstudies.org/"
+							}
+						]
+					}
+				}
+			],
+			"contact": [
+				{
+					"FN": "Metadata Technology North America Inc.",
+					"email": "mtna@mtna.us",
+					"x-Tweets": "mtnaus"
+				}
+			]
+		},
+		{
 			"name": "Democracy Works Elections API",
 			"description": "Since 2011, Democracy Works has tracked state and municipal elections for TurboVote users. Our full-time research team maintains a detailed calendar of upcoming state, special, and local elections, which we release as our Elections API.",
 			"tags": [
